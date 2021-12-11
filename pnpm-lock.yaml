@@ -1,0 +1,35 @@
+lockfileVersion: 5.3
+
+specifiers:
+  clean-css: ^5.2.2
+  recursive-readdir-sync: ^1.0.6
+  uglify-js: ^3.14.4
+
+dependencies:
+  clean-css: 5.2.2
+  recursive-readdir-sync: 1.0.6
+  uglify-js: 3.14.4
+
+packages:
+
+  /clean-css/5.2.2:
+    resolution: {integrity: sha512-/eR8ru5zyxKzpBLv9YZvMXgTSSQn7AdkMItMYynsFgGwTveCRVam9IUPFloE85B4vAIj05IuKmmEoV7/AQjT0w==}
+    engines: {node: '>= 10.0'}
+    dependencies:
+      source-map: 0.6.1
+    dev: false
+
+  /recursive-readdir-sync/1.0.6:
+    resolution: {integrity: sha1-Hb9tMvPFu4083pemxYjVR6nhPVY=}
+    dev: false
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /uglify-js/3.14.4:
+    resolution: {integrity: sha512-AbiSR44J0GoCeV81+oxcy/jDOElO2Bx3d0MfQCUShq7JRXaM4KtQopZsq2vFv8bCq2yMaGrw1FgygUd03RyRDA==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    dev: false
